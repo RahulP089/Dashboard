@@ -12,7 +12,7 @@ def get_base64_of_image(image_path):
     return base64.b64encode(data).decode()
 
 # --- Image Path ---
-image_path = "C:\\Users\\rahul_\\Downloads\\Image.jpg"
+image_path = "background.jpg"
 base64_image = get_base64_of_image(image_path)
 
 # --- Inject Custom CSS ---
